@@ -8,7 +8,7 @@ The user requests access, has 10 seconds to enter a 4-bit code, and the system t
 
 ![Full system circuit](images/full-circuit.png)
 
-> Shared with the lecturer's permission, as a portfolio project. Please do not submit it as your own work in assessments.
+> Shared with the lecturer's permission, as a portfolio project.
 
 ## Repository contents
 
