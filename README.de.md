@@ -8,8 +8,7 @@ Der Benutzer fordert Zugang an, hat 10 Sekunden Zeit, einen 4-Bit-Code einzugebe
 
 ![Gesamtschaltung des Systems](images/full-circuit.png)
 
-> Mit Erlaubnis des Dozenten als Portfolio-Projekt veröffentlicht. Bitte nicht als eigene Arbeit in Prüfungen einreichen.
-
+> Mit Erlaubnis des Dozenten als Portfolio-Projekt veröffentlicht.
 ## Inhalt des Repositorys
 
 | Datei | Inhalt |
