@@ -18,6 +18,7 @@ O utilizador pede acesso, tem 10 segundos para introduzir um código de 4 bits e
 | `circuits/B_comparator.dwm` | Comparador de igualdade de 4 bits |
 | `circuits/C_state_machine.dwm` | Sistema completo, com a máquina de estados |
 | `images/` | Circuitos e historiais lógicos usados neste README |
+| `report/report_pt.pdf` | Relatório completo do projeto |
 
 Os circuitos abrem no Digital Works (Windows). As macros estão incluídas dentro de cada ficheiro, por isso cada circuito funciona sozinho: basta abrir, iniciar a simulação e atuar nas entradas.
 
