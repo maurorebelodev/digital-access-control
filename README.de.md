@@ -51,7 +51,7 @@ CLOCK (10 Hz) ──► Zeitgeber und Zustandsautomat
 
 ## A. Zeitgeber
 
-Das System misst Zeitspannen von 10 s und 3 s auf Basis eines 10-Hz-Takts. Dazu verwendet es zwei **asynchrone Zähler** (Ripple-Zähler) aus JK-Flipflops im Toggle-Betrieb (J = K = 1):
+Das System misst Zeitspannen von 10 s und 3 s auf Basis eines 10-Hz-Takts. Dazu verwendet es zwei **asynchrone Zähler** aus JK-Flipflops im Toggle-Betrieb (J = K = 1):
 
 - **Frequenzteiler (Modulo 10):** zählt die Taktimpulse von 0 bis 9. Erreicht er 10 (1010), erkennt ein UND-Gatter diesen Zustand und setzt den Zähler über die *Clear*-Eingänge zurück. Ein ODER-Gatter verknüpft diese Erkennung mit dem Signal RESET_C. Der Ausgang des Teilers hat alle 10 Taktimpulse eine Flanke, also **1 Hz**.
 - **Hauptzähler (Modulo 16):** zählt einmal pro Sekunde von 0 bis 15 weiter und erzeugt zwei decodierte Ausgänge:
