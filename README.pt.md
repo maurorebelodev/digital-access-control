@@ -8,7 +8,7 @@ O utilizador pede acesso, tem 10 segundos para introduzir um código de 4 bits e
 
 ![Circuito completo do sistema](images/full-circuit.png)
 
-> Projeto partilhado com autorização do docente, para fins de portefólio. Por favor, não o utilizes como resposta em avaliações.
+> Projeto partilhado com autorização do docente, para fins de portefólio.
 
 ## Estrutura do repositório
 
