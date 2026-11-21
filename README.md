@@ -52,7 +52,7 @@ CLOCK (10 Hz) ──► timer and state machine
 
 ## A. Timer
 
-The system measures 10 s and 3 s intervals from a 10 Hz clock. It uses two **asynchronous (ripple) counters**, built from JK flip-flops in toggle mode (J = K = 1):
+The system measures 10 s and 3 s intervals from a 10 Hz clock. It uses two **asynchronous counters**, built from JK flip-flops in toggle mode (J = K = 1):
 
 - **Frequency divider (mod 10):** counts clock pulses from 0 to 9. When it reaches 10 (1010), an AND gate detects that state and resets the counter through the *Clear* inputs. An OR gate combines this detection with the RESET_C signal. The divider output has one edge every 10 clock pulses, i.e. **1 Hz**.
 - **Main counter (mod 16):** advances once per second, from 0 to 15, and produces two decoded outputs:
