@@ -2,7 +2,7 @@
 
 # Digitales Zugangskontrollsystem
 
-Ein digitales System zur Prüfung eines Zugangscodes, entwickelt in Digital Works für die Lehrveranstaltung **Rechnerarchitektur** im Bachelorstudiengang Informatik (Engenharia Informática) an der Universidade Aberta, Portugal (2026/27).
+Ein digitales System zur Prüfung eines Zugangscodes, entwickelt in Digital Works für die Lehrveranstaltung **Computerarchitektur** im Bachelorstudiengang Informatik (Engenharia Informática) an der Universidade Aberta, Portugal (2026/27).
 
 Der Benutzer fordert Zugang an, hat 10 Sekunden Zeit, einen 4-Bit-Code einzugeben, und das System zeigt anschließend 3 Sekunden lang an, ob der Code richtig oder falsch ist. Intern besteht das System aus drei Modulen: einem zählerbasierten **Zeitgeber**, einem 4-Bit-**Komparator** und einem **synchronen endlichen Zustandsautomaten**, der die beiden anderen Module steuert.
 
