@@ -80,7 +80,7 @@ Jede Zelle besteht aus einem **XNOR**-Gatter und einem nachgeschalteten **UND**-
 |---|---|
 | ![Komparatorzelle](images/comparator-cell.png) | ![4-Bit-Komparator](images/comparator-4bit.png) |
 
-Der Komparator wurde mit gleichen Codes und mit Codes getestet, die sich in verschiedenen Bits unterscheiden:
+Der Komparator wurde mit gleichen Codes und mit Codes, die sich in verschiedenen Bits unterscheiden, getestet:
 
 ![Tests des Komparators](images/comparator-tests.png)
 
