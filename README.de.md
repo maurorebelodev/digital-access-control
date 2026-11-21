@@ -18,6 +18,7 @@ Der Benutzer fordert Zugang an, hat 10 Sekunden Zeit, einen 4-Bit-Code einzugebe
 | `circuits/B_comparator.dwm` | 4-Bit-Gleichheitskomparator |
 | `circuits/C_state_machine.dwm` | Gesamtsystem mit Zustandsautomat |
 | `images/` | Schaltungen und Impulsdiagramme aus dieser README |
+| `report/report_pt.pdf` | Vollständiger Projektbericht (auf Portugiesisch) |
 
 Die Schaltungen lassen sich in Digital Works (Windows) öffnen. Die Makros sind in jeder Datei eingebettet, sodass jede Schaltung eigenständig funktioniert: Datei öffnen, Simulation starten und die Eingänge betätigen.
 
