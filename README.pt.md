@@ -50,7 +50,7 @@ CLOCK (10 Hz) ──► temporizador e máquina de estados
 
 ## A. Temporizador
 
-O sistema mede intervalos de 10 s e de 3 s a partir de um relógio de 10 Hz. Para isso usa dois **contadores assíncronos** (*ripple*), construídos com básculas JK em modo de comutação (J = K = 1):
+O sistema mede intervalos de 10 s e de 3 s a partir de um relógio de 10 Hz. Para isso usa dois **contadores assíncronos**, construídos com básculas JK em modo de comutação (J = K = 1):
 
 - **Divisor de frequência (módulo 10):** conta os impulsos do relógio de 0 a 9. Ao atingir 10 (1010), uma porta AND deteta o estado e reinicia o contador através das entradas *Clear*. Uma porta OR junta esta deteção ao sinal RESET_C. A saída do divisor tem um flanco por cada 10 impulsos de relógio, ou seja, **1 Hz**.
 - **Contador principal (módulo 16):** avança uma vez por segundo, de 0 a 15, e gera duas saídas descodificadas:
