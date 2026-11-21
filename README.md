@@ -18,6 +18,7 @@ The user requests access, has 10 seconds to enter a 4-bit code, and the system t
 | `circuits/B_comparator.dwm` | 4-bit equality comparator |
 | `circuits/C_state_machine.dwm` | Full system, including the state machine |
 | `images/` | Circuits and timing diagrams used in this README |
+| `report/report_pt.pdf` | Full project report (in Portuguese) |
 
 The circuits open in Digital Works (Windows). The macros are embedded in each file, so every circuit runs on its own: open it, start the simulation and use the inputs.
 
